@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+FitFuel 🥗📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+FitFuel is a mobile nutrition tracking app built with React Native and Expo. It allows users to search foods, log meals by serving size, and track daily calorie intake using real-time nutrition data from public REST APIs.
 
-## Get started
+This project was created with create-expo-app
+.
 
+Get started
 1. Install dependencies
-
-   ```bash
-   npm install
-   ```
+npm install
 
 2. Start the app
+npx expo start
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+In the output, you'll find options to open the app in a:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Development build
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Android emulator
 
-## Get a fresh project
+iOS simulator
 
-When you're ready, run:
+Expo Go — a lightweight sandbox for testing the app on your phone
 
-```bash
-npm run reset-project
-```
+App Features
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🔍 Food Search — Fetches live nutrition data from REST APIs
 
-## Learn more
+🍽️ Meal Logging — Log foods by customizable serving size (grams)
 
-To learn more about developing your project with Expo, look at the following resources:
+📊 Daily Calorie Tracking — Automatically calculates total daily calories
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📈 Progress Tracking — Visual indicator for progress toward a daily calorie goal
 
-## Join the community
+📱 Mobile-First UI — Clean, responsive design built for mobile devices
 
-Join our community of developers creating universal apps.
+Project Structure
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+You can start developing by editing the files inside the app directory.
+This project uses file-based routing provided by Expo Router.
+
+app/
+├── (tabs)/        # Main app screens
+├── components/    # Reusable UI components
+├── assets/        # Images and static files
+└── index.js       # Entry point
+
+Tech Stack
+
+Framework: React Native (Expo)
+
+Language: JavaScript
+
+APIs: REST APIs for nutrition data
+
+Tools: Git, Visual Studio Code, Expo CLI
+
+What I Learned
+
+Building mobile applications with React Native and Expo
+
+Integrating and consuming REST APIs
+
+Managing state and user input with React hooks
+
+Implementing dynamic calculations for serving sizes and calories
+
+Designing intuitive, mobile-first user interfaces
